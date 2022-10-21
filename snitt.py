@@ -12,9 +12,9 @@ I = (2/5)*m*(r**2)
 average_omega = average_final_velocity/r
 error_up_omega = error_up_value/r
 error_down_omega = error_down_value/r
-average_kinetic_energy = 1/2*m*average_final_velocity**2 + 1/2 * I * average_omega**2
-kinetic_energy_error_up = 1/2*m*(average_final_velocity+error_up_value)**2 + 1/2 * I *(average_omega+error_up_omega)**2
-kinetic_energy_error_down = 1/2*m*(average_final_velocity-error_down_value)**2 + 1/2 * I *(average_omega+error_down_omega)**2
+average_kinetic_energy = 1/2*m*average_final_velocity**2 + 1/2*I*(average_omega**2)
+kinetic_energy_error_up = 1/2*m*(average_final_velocity+error_up_value)**2 + 1/2*I*((average_omega+error_up_omega)**2)
+kinetic_energy_error_down = 1/2*m*(average_final_velocity-error_down_value)**2 + 1/2*I*((average_omega+error_down_omega)**2)
 max_kinetic_energy_error = max(kinetic_energy_error_down,kinetic_energy_error_up)
 max_kinetic_energy_error_percentage = max_kinetic_energy_error/average_kinetic_energy
 
