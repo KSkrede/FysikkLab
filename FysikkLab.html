@@ -14520,8 +14520,8 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Sammendrag">Sammendrag<a class="anchor-link" href="#Sammendrag">&#182;</a></h2><p>En måte å se på sammenhengen mellom teoretiske modeller og virkeligheten er ved å utføre et eksperiment i virkeligheten og så simulere det numerisk ved hjelp av teknologi. Ved hjelp av høyhastighetsfilming ble en kule rullende ned en bane målt til å ha gjennomsnittshastighet $ (1.1496 \pm 0.0115)m/s $ og en gjennomsnittlig kinetisk energi $ (0.287 \pm 9.65*10^{-8}) J. $ Det var et et avvik fra den teoretiske modellen simulert og den numeriske modellen, det kan skyldes perspektivfeil eller feil ved den teoretiske modellen som neglesjering av friksjon.</p>
-<h2 id="Introduksjon">Introduksjon<a class="anchor-link" href="#Introduksjon">&#182;</a></h2><p>Moderne fysikk bygger på hypoteser som gjennom mange forsøk har blitt testet og utfordret før de har gått inn som teorier i dag. Disse teoriene har metoder for utregninger som gir analytiske svar som en modell på virkeligheten. I tillegg eksisterer det måter å tilnærme en løsning ved hjelp av numeriske metoder som gjetter seg til flere løsninger for definere en gjennomsnittlig løsning. I denne rapporten sammenligner vi derfor et analytisk med et numerisk svar for å vurdere om den analytiske metoden er en god nok modell av virkeligheten vi setter fra den numeriske løsningen av en kule som ruller ned en bane.</p>
+<h2 id="Sammendrag">Sammendrag<a class="anchor-link" href="#Sammendrag">&#182;</a></h2><p>En måte å se på sammenhengen mellom teoretiske modeller og virkeligheten er å utføre et eksperiment i virkeligheten og så simulere det numerisk ved hjelp av teknologi. Ved hjelp av høyhastighetsfilming ble en kule rullende ned en bane målt til å ha gjennomsnittlig slutthastighet $ (1.1496 \pm 0.0115)m/s $ og en gjennomsnittlig kinetisk sluttenergi $ (0.287 \pm 9.65*10^{-8}) J. $ Det oppsto avvik mellom den teoretiske og numeriske modellen, noe som kan skyldes perspektivfeil eller feil ved den teoretiske modellen, slik som neglisjering av friksjon.</p>
+<h2 id="Introduksjon">Introduksjon<a class="anchor-link" href="#Introduksjon">&#182;</a></h2><p>Moderne fysikk bygger på hypoteser som gjennom mange forsøk har blitt testet og utfordret før de har gått inn som teorier i dag. Disse teoriene har metoder for utregninger som gir analytiske svar som en modell på virkeligheten. I tillegg eksisterer det måter å tilnærme en løsning på ved hjelp av numeriske metoder for å definere en gjennomsnittlig løsning. I denne rapporten sammenligner vi derfor et analytisk svar med et numerisk svar. Videre blir det gjort en vurdering på om den analytiske metoden er en god nok modell av virkeligheten som settes av den numeriske løsningen av en kule som ruller ned en bane.</p>
 <h2 id="Teori">Teori<a class="anchor-link" href="#Teori">&#182;</a></h2><p>I en berg-og-dal-bane vil hastigheten og akselerasjonen variere på grunn av krumt underlag. Dersom baneformen y(x) er kjent, samt dens første- og andrederiverte, kan diverse størrelser til et kuleformet legeme som ruller langs banen bestemmes. Her er y høyden på banen (også kulens vertikale posisjon) som en funksjon av kulens horisontale posisjon x. Kulen har et treghetsmoment
     $$ I = c*m*R^2 ,$$
 der R er kulens radius, m er dens masse og vi antar uniform massefordeling slik at $c = ⅖$.</p>
@@ -14530,8 +14530,8 @@ der R er kulens radius, m er dens masse og vi antar uniform massefordeling slik 
    $$ E_r = {c*m*v^2\over 2} $$
    $$ K = E_t + E_r = {(1+c)*m*v^2\over 2} $$</p>
 <p>der v er kulens hastighet.
-Når kulen starter med $v = 0 $ i høyde  $h = y(0) = y0$ får vi total mekanisk energi $E = U + K = U$, der $U = m*g*y0$. Ettersom vi kjenner til baneformen $y(x)$ kan vi bruke energibevaring for å finne farten $v$ som et uttrykk av $x:$</p>
-$$ v(x) = \sqrt{2g(y_0 - y(x)) \over (1+c)} $$<p>Her antar vi at både friksjon og luftmotstand er neglisjerbart over de relevante tids- og hastighetsintervallene. Alle målinger av fysiske størrelser er usikre som vi anslår på grunnlag av f.eks presisjonen på et måleinstrument, menneskelige feil eller ved å regne ut standardfeil til en måleserie.</p>
+Når kulen starter med $v = 0 $ i høyde  $h = y(0) = y_0$ får vi total mekanisk energi $E = U + K = U$, der $U = m*g*y_0$. Ettersom vi kjenner til baneformen $y(x)$ kan vi bruke energibevaring for å finne farten $v$ som et uttrykk av $x:$</p>
+$$ v(x) = \sqrt{2g(y_0 - y(x)) \over (1+c)} $$<p>Her antas det at både friksjon og luftmotstand er neglisjerbare over de relevante tids- og hastighetsintervallene. Alle målinger av fysiske størrelser er usikre, blant annet grunnet presisjonen til et måleinstrument og menneskelige feil. Dette kan kompenseres for ved å regne ut standardfeil til måleserien.</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -14609,17 +14609,16 @@ $$ v(x) = \sqrt{2g(y_0 - y(x)) \over (1+c)} $$<p>Her antar vi at både friksjon 
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><em>Figur 1</em></p>
-<h2 id="Metode">Metode<a class="anchor-link" href="#Metode">&#182;</a></h2><p>Grafen (<em>Figur 1</em>) over viser forsøksoppstillingen vår. En kule med masse 0.031 og radius 0.011 rulles ned på banen vi konstruerte. Banen ble først generert ved å velge 8 tilfeldige y verdier også beregnet ved en kubisk spline funksjon.
-Forsøket ble filmet med mobilkamera og analysert ved hjelp av softwaren «Tracker». Tracker anvender en kvadratisk regresjonstilpasning på de målte datapunktene fra videoen og gir ut et estimat for fart, posisjon og tid.
-Forsøket ble gjentatt 10 ganger og usikkerheten ble estimert ved å bergene en differanse mellom de ulike målte verdiene.
-Den analytiske modellen og grafen vi bruker for å analysere dataene baserer seg på en antagelse og rullig uten forstyrrelser.</p>
+<h2 id="Metode">Metode<a class="anchor-link" href="#Metode">&#182;</a></h2><p>Grafen (<em>Figur 1</em>) over viser forsøksoppstillingen vår. En kule med masse 0.031kg og radius 0.011m rulles ned på banen vi konstruerte. Banen ble først generert ved å velge 8 tilfeldige y-verdier også beregnet ved hjelp av kubisk spline interpolasjon.
+Forsøket ble filmet med mobilkamera og analysert ved hjelp av dataprogrammet «Tracker». Tracker anvender en kvadratisk regresjonstilpasning på de målte datapunktene fra videoen og gir ut et estimat for fart, posisjon og tid. For å få mest mulig nøyaktig svar måtte programmet kalibreres ved hjelp av en meterstokk.
+Forsøket ble gjentatt 10 ganger og usikkerheten ble estimert ved å beregne en differanse mellom de ulike målte verdiene.
+Den analytiske modellen og grafen vi bruker for å analysere dataene baserer seg på en antagelse og rulling uten forstyrrelser.</p>
 
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Resultater">Resultater<a class="anchor-link" href="#Resultater">&#182;</a></h2><p>Graf for hasitghet, kinetisk energi og bane
-Banestart og -slutt ble målt til hhv høydene $ (27.5 ± 0.5) cm$ og $ (17.5 ± 0.5) cm $ (se Figur 1), der usikkerheten er anslag basert på avlesningsnøyaktigheten.</p>
+<h2 id="Resultater">Resultater<a class="anchor-link" href="#Resultater">&#182;</a></h2><p>Banestart og -slutt ble målt til henholdsvis høydene $ (0.275 ± 0.005) m$ og $ (0.16 ± 0.005) m $ (se Figur 1), der usikkerheten er anslag basert på avlesningsnøyaktigheten.</p>
 <table>
 <thead><tr>
 <th>Y verdi med usikkerhet</th>
@@ -14627,34 +14626,34 @@ Banestart og -slutt ble målt til hhv høydene $ (27.5 ± 0.5) cm$ og $ (17.5 ±
 </thead>
 <tbody>
 <tr>
-<td>0.27  ± 0.5cm</td>
+<td>0.275  ± 0.005m</td>
 </tr>
 <tr>
-<td>0.221 ± 0.5cm</td>
+<td>0.221 ± 0.005m</td>
 </tr>
 <tr>
-<td>0.25 ± 0.5cm</td>
+<td>0.250 ± 0.005m</td>
 </tr>
 <tr>
-<td>0.24 ± 0.5cm</td>
+<td>0.240 ± 0.005m</td>
 </tr>
 <tr>
-<td>0.19 ± 0.5cm</td>
+<td>0.190 ± 0.005m</td>
 </tr>
 <tr>
-<td>0.162 ± 0.5cm</td>
+<td>0.162 ± 0.005m</td>
 </tr>
 <tr>
-<td>0.154 ± 0.5cm</td>
+<td>0.154 ± 0.005m</td>
 </tr>
 <tr>
-<td>0.16 ± 0.5cm</td>
+<td>0.160 ± 0.005m</td>
 </tr>
 </tbody>
 </table>
 <p><em>Tabell 1</em></p>
-<p>Det ble tatt 10 målinger av kulens slutthastighet i banen. Gjennomsnittet av og standardfeilen i disse verdiene gir en gjennomsnittlig slutthastighet på $ (1.1496 \pm 0.0115) m/s $ som gir gjennomsnittlig kinetisk energi $(0.287 \pm 9.65*10^{-8}) J. $  Der usikkerheten er beregnet ved differansen mellom høyeste og laveste målte hastighet.</p>
-<p>Et tilfeldig valgt datasett (måling #6) er vist i <em>figur</em> 2 sammen med den numeriske løsningen av farten til kulen nedover banen. Det var noen ulikheter fra farten i den analytiske modellen og numerikken, noe som er forventet. Samme datasett og farten vi får fra det gir oss også <em>figur 3</em> som viser den analytiske og den numeriske kinetiske energien. Ettersom den er avhengig av farten ser vi en lik grad av ulikhet mellom disse grafene som med farten.</p>
+<p>Det ble tatt 10 målinger av kulens slutthastighet i banen. Gjennomsnittet av disse verdiene og standardfeilen gir en gjennomsnittlig slutthastighet på $ (1.1496 \pm 0.0115) m/s $ som gir gjennomsnittlig kinetisk energi $(0.287 \pm 9.65*10^{-8}) J. $</p>
+<p>Et tilfeldig valgt datasett (måling #6) er vist i <em>Figur</em> 2 sammen med den numeriske løsningen av farten til kulen nedover banen. Det oppsto noen avvik fra farten i den analytiske modellen og numeriske modellen, noe som var forventet. Ut i fra dette kan vi også regne ut den analytiske og numeriske kinetiske energien, se <em>Figur</em> 3. Ettersom den kinetiske energien er avhengig av farten, ser vi en forventet grad av ulikhet mellom disse grafene som med farten.</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
@@ -14812,10 +14811,10 @@ Banestart og -slutt ble målt til hhv høydene $ (27.5 ± 0.5) cm$ og $ (17.5 ±
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><em>Figur 3</em></p>
-<h2 id="Diskusjon">Diskusjon<a class="anchor-link" href="#Diskusjon">&#182;</a></h2><p>Vi baserer målingen av farten til kulen på banen på å måle x- og y-posisjon. Disse avstandene er målt med en sikkerhet som er begrenset av nøyaktighet i menneskelig avlesning av meterstaven. Denne feilen har vi antatt at vil ligge ved størrelsesorden av $ \pm 0.05cm. $ 
-Det er andre feilkilder som kan ha spilt inn. Dette er spesielt perspektivfeil. Et eksempel på dette var avstanden mellom banen og kameraet som ble målt til 1.2 m. Dette kan gi perspektivfeil dersom dybden/avstanden var målt feil. For eksempel, dersom avstanden hadde vært 1.25m ville vi fått perspektivfeil på $ (1.0m/1.2m) * 1.25m -1.0m ≈ 4cm $ i posisjonsmålingene til Tracker. Dette kan forklare avviket vi får på målingene av farten.</p>
-<p>Til slutt er det noen mulige feilkilder knyttet til forenklinger i den teoretiske modellen som beskriver systemet og eksperimentet vårt. Blant annet neglisjerer vi luftmotstand, friksjon og en ikke rett/direkte bane for kulen. Det er rimelig å anta at ballen ruller uten å gli da kulen er laget av et materiale som er glatt og har en relativt liten radius. I realiteten av eksperimentet vil faktorene som friksjon og luftmotstand spille inn. Vi observerte blant annet at ballen ikke alltid rullet rett ned på banen, men kunne dunke mot “veggene” i sporet. Dette førte i så fall til mer friksjon (som vi ser bort fra i den teoretiske modellen), overføring av energi i dunkene og derfor en lavere fart på avlesningen.</p>
-<h2 id="Konklusjon">Konklusjon<a class="anchor-link" href="#Konklusjon">&#182;</a></h2><p>Vi målte fart og kinetisk energi av en kule som rullet ned en bane både med numerisk og analytisk løsning. Resultatet viste noe ulike verdier for de to mulige løsningene. Grunner til disse avvikene kan skyldes menneskelige avlesningsfeil, perspektivfeil og neglisjering av luftmotstand, friksjon og andre usikkerheter i en rullende kule.</p>
+<h2 id="Diskusjon">Diskusjon<a class="anchor-link" href="#Diskusjon">&#182;</a></h2><p>Vi måler farten til kulen på banen basert på dens x- og y-posisjon. Disse avstandene er målt med en sikkerhet som er begrenset av nøyaktigheten i avlesningen av meterstokken. Denne feilen har vi antatt vil ligge ved størrelsesorden $ \pm 0.05cm. $ 
+Det er også andre feilkilder som kan ha spilt inn. Dette er spesielt perspektivfeil. Et eksempel på dette var avstanden mellom banen og kameraet som ble målt til 1.2 m. Dette kan gi perspektivfeil dersom dybden eller avstanden var målt feil. For eksempel, dersom avstanden hadde vært 1.25m ville vi fått perspektivfeil på $ (1.0m/1.2m) * 1.25m -1.0m ≈ 0.04m $ i posisjonsmålingene til Tracker. Dette kan forklare avviket vi får på målingene av farten.</p>
+<p>Til slutt er det noen mulige feilkilder knyttet til forenklinger i den teoretiske modellen som beskriver systemet og eksperimentet vårt. Blant annet neglisjerer vi luftmotstand og friksjon, og antar en rett, direkte bane for kulen. Det er rimelig å anta at ballen ruller uten å gli da kulen er laget av et materiale som er glatt og har en relativt liten radius. I realiteten av eksperimentet vil faktorene som friksjon og luftmotstand spille inn. Vi observerte blant annet at ballen ikke alltid rullet rett ned på banen, men kunne dunke mot “veggene” i sporet. Dette førte i så fall til mer friksjon og overføring av energi i dunkene, noe som kan gi en lavere fart på avlesningen.</p>
+<h2 id="Konklusjon">Konklusjon<a class="anchor-link" href="#Konklusjon">&#182;</a></h2><p>Vi målte fart og kinetisk energi av en kule som rullet ned en bane både med numerisk og analytisk metode. Resultatet viste noe ulike verdier for de to mulige løsningene. Grunner til disse avvikene kan skyldes menneskelige avlesningsfeil, perspektivfeil og neglisjering av luftmotstand, friksjon og andre usikkerheter forbundet med en rullende kule.</p>
 <h2 id="Referanser">Referanser<a class="anchor-link" href="#Referanser">&#182;</a></h2><p>Støvneng, J. A. (2021, Januar 31). <em>Ren rulling på krumt underlag – energibevarelse.</em> Hentet fra TFY41xx Fysikk: Labprosjekt Vår 2021: <a href="https://home.phys.ntnu.no/brukdef/undervisning/fyslab/files/labligninger.pdf">https://home.phys.ntnu.no/brukdef/undervisning/fyslab/files/labligninger.pdf</a></p>
 
 </div>
